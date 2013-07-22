@@ -1,80 +1,103 @@
 /* HEADER */ /* HEADER */ /* HEADER */ /* HEADER */
 
 #logo {
-	color: black;
 	font-size: 2.3em;
 	text-align: center;
 	text-decoration: none;
 	margin: 0px auto;
-}
-
-.container {
-	li {
-		list-style-type: none;
-		display: inline-block;
+	font-family: Exo;
+	color: white;
+	a {
+		margin-top: 10px;
 	}
 }
 
-.navbar {
-	min-height: 60px;
-	border-bottom: 1px solid #eaeaea;
+.container {
+	background-color: black;
+	min-height: 75px;
+	margin: -10px -5px;
+	padding: 1px;
+	li {
+		list-style-type: none;
+		display: inline-block;
+		margin-top: 10px;
+	}
 }
 
 .left_nav {
 	float: left;
-	width: 125px;
-	margin: 0px auto;
-	li {
+	width: 175px;
+	margin: 30px 160px;
+	a {
+		color: white;
+		font-family: Exo;
+		margin-left: 30px;
 		text-decoration: none;
-		margin: 0px 10px;
 	}
 }
 
 .right_nav {
 	float: right;
-	margin-right: 20px;
-	width: 125px;
-	margin: 0px auto;
-	li {
-		margin: 0px 10px;
+	/*margin-right: 20px;*/
+	width: 160px;
+	margin: 30px 160px;
+	a {
+		color: white;
+		font-family: Exo;
+		margin-right: 30px;
+		text-decoration: none;
 	}
 }
 
 .center {
-	width: 223px;
-	margin-left: auto;
-	margin-right: auto;
+	width: 237px;
+	margin: 26px auto;
+}
+
+/* BODY */ /* BODY */ /* BODY */ /* BODY */ /* BODY */
+
+.body {
+	border: 1px solid blue;
+	min-height: 500px;
+	margin: 10px -5px;
 }
 
 /* FOOTER */ /* FOOTER */ /* FOOTER */ /* FOOTER */
 
-footer {
-	margin-right: auto;
-  margin-top: 45px;
+.footer {
+	margin: -10px -5px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
   color: #999;
+  background-color: black;
+  min-height: 70px;
   /*border: 1px solid red;*/
 }
 
-footer a {
-  color: #555;
+.footer a {
+	margin-right: 10px;
+	text-decoration: none;
+  color: white;
+  font-family: Exo;
 }
 
-footer a:hover {
+.footer a:hover {
   color: #222;
 }
 
-footer small {
+.footer small {
   float: left;
+  margin-top: 22px;
+  margin-left: 9px;
 }
 
-footer ul {
+.footer ul {
   float: right;
   list-style: none;
 }
 
-footer ul li {
+.footer ul li {
   float: left;
   margin-left: 10px;
+  margin-top: 6px;
 }
