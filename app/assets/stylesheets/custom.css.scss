@@ -109,28 +109,52 @@ p {
 
 .picture {
 	background-image:url('brucelee.jpg');
-	min-height: 500px;
+	min-height: 600px;
 	min-width: 350px;
 	border: 1px solid gray;
 	margin-left: 30px;
 	margin-right: 0px;
 	border-radius: 15px;
 	float: left;
-	/*padding-bottom: 20px;*/
+	padding-top: 20px;
+	margin-top: 30px;
 }
 
 .about_me {
-	/*border: 2px solid gray;*/
 	margin-left: 465px;
 	min-height: 300px;
 	max-width: 900px;
-	/*float: right;*/
+	padding-top: 20px;
 }
 
 .about_title {
-	border-bottom: 1px solid gray;
 	border-radius: 2px;
-	margin-left: 25px;
+	margin-left: -40px;
+	padding-bottom: 10px;
+	/*position: absolute;*/
+}
+
+.about_info {
+	padding-bottom: 35px;
+}
+
+.top_border {
+	border-top: 5px solid gray;
+	margin-left: -50px;
+}
+
+.bottom_border {
+	border-top: 5px solid gray;
+	margin-left: -86px;
+}
+
+.skills {
+	/*border: 1px solid red;*/
+	margin-right: 30px;
+	margin-left: -5px;
+	margin-top: 30px;
+	max-width: 700px;
+	min-height: 224px;
 }
 
 /* FOOTER */ /* FOOTER */ /* FOOTER */ /* FOOTER */
