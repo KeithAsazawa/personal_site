@@ -1,7 +1,28 @@
 h1 {
 	color: white;
 	font-family: 'Over the Rainbow', cursive;
-	font-size: 70px;
+	font-size: 4.4em;
+	margin-bottom: -50px;
+}
+
+h2 {
+	color: white;
+	font-family: 'Over the Rainbow', cursive;
+	font-size: 2em;
+	margin-left: 70px;
+}
+
+h3 {
+	color: white;
+	font-family: 'Over the Rainbow', cursive;
+	font-size: 1.4em;
+}
+
+h4 {
+	color: white;
+	font-family: 'Over the Rainbow', cursive;
+	font-size: 1em;
+	margin-left: 40px;
 }
 
 /* HEADER */ /* HEADER */ /* HEADER */ /* HEADER */
@@ -32,7 +53,7 @@ h1 {
 
 .left_nav {
 	float: left;
-	width: 175px;
+	width: 151px;
 	margin: 30px 160px;
 	a {
 		color: white;
@@ -45,7 +66,7 @@ h1 {
 .right_nav {
 	float: right;
 	/*margin-right: 20px;*/
-	width: 160px;
+	width: 152px;
 	margin: 30px 160px;
 	a {
 		color: white;
@@ -68,7 +89,12 @@ h1 {
 	margin-top: -46px;
 	margin-left: -5px;
 	margin-right: -5px;
-	margin-bottom: -45px;
+	margin-bottom: -20px;
+}
+
+.body_heading {
+	margin-left: 45px;
+	margin-top: 30px;
 }
 
 /* FOOTER */ /* FOOTER */ /* FOOTER */ /* FOOTER */
