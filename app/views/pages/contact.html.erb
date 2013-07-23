@@ -1,6 +1,16 @@
 <%= provide(:title, 'Contact') %>
 <%= render 'layouts/header' %>
 <div class="body">
-
+	<h2>Contact me, I'd love to hear from you.</h2>
+	<div class="contact_info">
+		<form class="form-horizontal">
+			<div class="control-group">
+				<label class="control-label" for="inputEmail">Email</label>
+				  <div class="controls">
+      			<input type="text" id="inputEmail" placeholder="Email">
+    			</div>
+			</div>
+		</form>
+	</div>
 </div>
 <%= render 'layouts/footer' %>

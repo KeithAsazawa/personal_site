@@ -1,28 +1,38 @@
+/*@import "bootstrap";*/
+
 h1 {
 	color: white;
 	font-family: 'Over the Rainbow', cursive;
 	font-size: 4.4em;
-	margin-bottom: -50px;
+	margin: 0px 0px 0px 10px;
 }
 
 h2 {
 	color: white;
 	font-family: 'Over the Rainbow', cursive;
 	font-size: 2em;
-	margin-left: 70px;
+	margin: 0px 0px 0px 70px;
 }
 
 h3 {
 	color: white;
 	font-family: 'Over the Rainbow', cursive;
 	font-size: 1.4em;
+	margin: 0px 0px 0px 0px;
 }
 
 h4 {
 	color: white;
 	font-family: 'Over the Rainbow', cursive;
 	font-size: 1em;
-	margin-left: 40px;
+	margin: 0px 0px 0px 60px;
+}
+
+p {
+	color: #eaeaea;
+	margin: 0px 25px;
+	padding-top: 30px;
+	font-family: Exo;
 }
 
 /* HEADER */ /* HEADER */ /* HEADER */ /* HEADER */
@@ -33,7 +43,7 @@ h4 {
 	text-decoration: none;
 	margin: 0px auto;
 	font-family: Exo;
-	color: white;
+	color: #0099FF;
 	a {
 		margin-top: 10px;
 	}
@@ -53,8 +63,8 @@ h4 {
 
 .left_nav {
 	float: left;
-	width: 151px;
-	margin: 30px 160px;
+	width: 190px;
+	margin: 30px 0px 30px 160px;
 	a {
 		color: white;
 		font-family: Exo;
@@ -66,8 +76,8 @@ h4 {
 .right_nav {
 	float: right;
 	/*margin-right: 20px;*/
-	width: 152px;
-	margin: 30px 160px;
+	width: 190px;
+	margin: 30px 160px 30px 0px;
 	a {
 		color: white;
 		font-family: Exo;
@@ -85,16 +95,42 @@ h4 {
 
 .body {
 	background-image:url('background.jpg');
-	min-height: 750px;
-	margin-top: -46px;
+	min-height: 800px;
+	margin-top: 11px;
 	margin-left: -5px;
 	margin-right: -5px;
-	margin-bottom: -20px;
+	margin-bottom: 11px;
 }
 
 .body_heading {
 	margin-left: 45px;
-	margin-top: 30px;
+	/*margin-top: 30px;*/
+}
+
+.picture {
+	background-image:url('brucelee.jpg');
+	min-height: 500px;
+	min-width: 350px;
+	border: 1px solid gray;
+	margin-left: 30px;
+	margin-right: 0px;
+	border-radius: 15px;
+	float: left;
+	/*padding-bottom: 20px;*/
+}
+
+.about_me {
+	/*border: 2px solid gray;*/
+	margin-left: 465px;
+	min-height: 300px;
+	max-width: 900px;
+	/*float: right;*/
+}
+
+.about_title {
+	border-bottom: 1px solid gray;
+	border-radius: 2px;
+	margin-left: 25px;
 }
 
 /* FOOTER */ /* FOOTER */ /* FOOTER */ /* FOOTER */
@@ -102,11 +138,9 @@ h4 {
 .footer {
 	margin: -10px -5px;
   padding-top: 5px;
-  /*border-top: 1px solid #eaeaea;*/
   color: #999;
   background-color: #303030;
   min-height: 70px;
-  /*border: 1px solid red;*/
 }
 
 .footer a {
