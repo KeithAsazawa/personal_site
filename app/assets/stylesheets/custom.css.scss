@@ -4,18 +4,20 @@ h1 {
 	color: white;
 	font-family: 'Over the Rainbow', cursive;
 	font-size: 4.4em;
-	margin: 0px 0px 0px 10px;
+	margin: 0px 15px 0px 40px;
 }
 
 h2 {
 	color: white;
+	text-align: center;
 	font-family: 'Over the Rainbow', cursive;
 	font-size: 2em;
-	margin: 0px 0px 0px 70px;
+	margin: 0px 55px 0px 70px;
 }
 
 h3 {
 	color: white;
+	text-align: center;
 	font-family: 'Over the Rainbow', cursive;
 	font-size: 1.4em;
 	margin: 0px 0px 0px 0px;
@@ -23,9 +25,18 @@ h3 {
 
 h4 {
 	color: white;
-	font-family: 'Over the Rainbow', cursive;
+	text-align: center;
+	font-family: Exo;
 	font-size: 1em;
 	margin: 0px 0px 0px 60px;
+}
+
+h5 {
+	color: #0099FF;
+	font-family: Exo;
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 10px;
 }
 
 p {
@@ -95,7 +106,7 @@ p {
 
 .body {
 	background-image:url('background.jpg');
-	min-height: 800px;
+	min-height: 700px;
 	margin-top: 11px;
 	margin-left: -5px;
 	margin-right: -5px;
@@ -105,6 +116,31 @@ p {
 .body_heading {
 	margin-left: 45px;
 	/*margin-top: 30px;*/
+}
+
+.body_image {
+	height: 300px;
+	width: 300px;
+	border: 3px solid gray;
+	margin: 0px auto;
+	margin-top: -45px;
+	border-radius: 300px;
+}
+
+.body_info {
+	border: 1px solid gray;
+	min-height: 200px;
+	margin-top: 94px;
+	background-color: #303030;
+}
+
+.body_name {
+	/*border: 1px solid gray;*/
+	width: 300px;
+	height: 220px;
+	float: right;
+	margin-top: 100px;
+	margin-right: 62px;
 }
 
 .picture {
@@ -194,3 +230,16 @@ p {
   margin-left: 10px;
   margin-top: 6px;
 }
+
+/* INPUT FIELDS */ /* INPUT FIELDS */ /* INPUT FIELDS */ /* INPUT FIELDS */
+/*
+input {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	margin-top: 10px;
+	padding: 9px;
+	color: #666;
+	border: 0px;
+	width: 300px;
+	height: 20px;
+}*/
