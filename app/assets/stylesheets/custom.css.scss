@@ -25,10 +25,10 @@ h3 {
 
 h4 {
 	color: white;
-	text-align: center;
-	font-family: Exo;
-	font-size: 1em;
-	margin: 0px 0px 0px 60px;
+	/*text-align: center;*/
+	font-family: 'Over the Rainbow', cursive;
+	font-size: 2em;
+	margin: 0px 0px 0px 0px;
 }
 
 h5 {
@@ -37,6 +37,14 @@ h5 {
 	font-size: 20px;
 	text-align: center;
 	margin-bottom: 10px;
+}
+
+h6 {
+	color: white;
+	/*text-align: center;*/
+	font-family: 'Over the Rainbow', cursive;
+	font-size: 2em;
+	margin: 0px 0px 0px 0px;
 }
 
 p {
@@ -232,14 +240,75 @@ p {
 }
 
 /* INPUT FIELDS */ /* INPUT FIELDS */ /* INPUT FIELDS */ /* INPUT FIELDS */
-/*
-input {
-	font-family: Arial, sans-serif;
-	font-size: 12px;
-	margin-top: 10px;
-	padding: 9px;
-	color: #666;
-	border: 0px;
-	width: 300px;
-	height: 20px;
-}*/
+
+form {
+	/*background: -webkit-gradient(linear, bottom, left 175px, from(#CCCCCC), to(#EEEEEE));*/
+	/*background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);*/
+	margin: 11px auto;
+	position:relative;
+	width:550px;
+	height:417px;
+	font-family: Exo, Geneva, sans-serif;
+	font-size: 15px;
+	font-style: italic;
+	text-align: center;
+	/*line-height: 24px;*/
+	font-weight: bold;
+	color: #0099FF;
+	/*text-decoration: none;*/
+	/*-webkit-border-radius: 10px;*/
+	/*-moz-border-radius: 10px;*/
+	border-radius: 10px;
+	padding:10px;
+	/*border: 1px solid #0099FF;*/
+	/*border: inset 1px solid #333;*/
+	/*-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);*/
+	/*-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);*/
+	/*box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);*/
+}
+
+input    {
+	width:375px;
+	display:block;
+	margin: 10px auto;
+	border: 1px solid #999;
+	height: 25px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+textarea#feedback {
+	width:375px;
+	height:150px;
+	display: block;
+	margin: 10px auto;
+	border-radius: 7px;
+}
+
+input#button {
+	width:100px;
+	position: absolute;
+	right:230px;
+	bottom:30px;
+	color:#0099FF;
+	font-family: Exo , Geneva, sans-serif;
+	height:30px;
+	font-size: 15px;
+	font-weight: bold;
+	/*-webkit-border-radius: 15px;*/
+	/*-moz-border-radius: 15px;*/
+	border-radius: 15px;
+	border: 1px solid #999;
+	background-color: black;
+}
+
+input.button:hover {
+	background:#fff;
+	color:#09C;
+}
+
+.form-name {
+	margin: 0px auto;
+}

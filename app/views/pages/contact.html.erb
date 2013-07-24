@@ -4,10 +4,15 @@
 	<h2>Contact me, I'd love to hear from you.</h2>
 	<div class="contact_info">	
 		<form>
-      <input type="text" id="inputEmail" placeholder="Name"><br />
-			<input type="text" id="inputEmail" placeholder="Email">	<br />
-			<input type="textarea" id="comment" placeholder="Comment">	<br />
-			<input type="submit" name="Submit">
+			<div>
+				<label class="form-name">Your name</label>
+				<input id="name" type="text" name="name" placeholder=" Name"/>		
+				<label class="form-name">Email Address</label>
+				<input id="email" type="text" name="email" placeholder=" Email address"/>
+				<label class="form-name">Message</label>
+				<textarea id="feedback" name="feedback" placeholder=" Message"></textarea>
+				<input type="button" value="Submit" id="button" />
+			</div>
 		</form>
 	</div>
 </div>
