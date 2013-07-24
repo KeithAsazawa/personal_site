@@ -9,6 +9,7 @@ class PagesController < ApplicationController
   end
 
   def blog
+    @blog = Blog.all
   end
 
   def portfolio
