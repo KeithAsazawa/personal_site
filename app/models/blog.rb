@@ -1,5 +1,3 @@
 class Blog < ActiveRecord::Base
-  attr_accessible :content, :title
-
-  validates :content, :title, presence: true
+  attr_accessible :body, :title
 end

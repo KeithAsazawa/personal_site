@@ -1,0 +1,14 @@
+<%= provide(:title, 'Blogs') %>
+
+<%= render 'layouts/header' %>
+<div class="blog_container">
+  <div class="blog_table"><br />
+  <% @blogs.each do |blog| %><br />
+      <strong><%= blog.title %></strong><br /><br />
+      <%= blog.body %><br /><br />
+      <div class="blog_border"></div>
+  <% end %>
+  </div>
+</div>
+  <br />
+<%= render 'layouts/footer' %>
