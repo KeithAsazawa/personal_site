@@ -6,6 +6,7 @@
   <% @blogs.each do |blog| %><br />
       <strong><%= blog.title %></strong><br /><br />
       <div class="blog_body"><%= blog.body %></div><br /><br />
+      <div class="date_time">Posted <%= time_ago_in_words(blog.created_at) %> ago</div>
       <div class="blog_border"></div>
   <% end %>
   </div>
